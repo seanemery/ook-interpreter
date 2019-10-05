@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple Ook interpreter",
   "main": "main.js",
+  "jshintConfig": {
+    "esversion":9
+  },
   "dependencies": {
     "argparse": "^1.0.10",
     "abbrev": "^1.1.1",

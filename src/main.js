@@ -1,7 +1,12 @@
+let tokenize = require('./tokenizer.js');
+let parser = require('./parser.js');
+
 function run(program, input) {
-    validateSyntax(program);
-    validateInput(input);
-    let tokens = tokenizeProgram(program);
+    const tapePtr = [];
+    parser.checkSyntax(program);
+    parser.checkInput(input);
+    let tokens = tokenize(program);
+    tokens = "abc";
     let commands = {
             a: function(){},
             b: function(){},
@@ -15,5 +20,8 @@ function run(program, input) {
 
     for(let token of tokens) {
         console.log(token);
+        commands[token]();
     }
 }
+
+run("hello", "goodbye");
