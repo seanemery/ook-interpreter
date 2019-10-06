@@ -4,7 +4,7 @@
   "description": "A simple Ook interpreter",
   "main": "main.js",
   "jshintConfig": {
-    "esversion":9
+    "esversion": 9
   },
   "dependencies": {
     "argparse": "^1.0.10",
@@ -96,7 +96,7 @@
     "jshint": "^2.10.2"
   },
   "scripts": {
-    "test": "grunt jasmine"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
