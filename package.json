@@ -55,7 +55,7 @@
     "lodash": "^4.17.15",
     "load-json-file": "^1.1.0",
     "map-obj": "^1.0.1",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "meow": "^3.7.0",
     "nopt": "^3.0.6",
     "normalize-package-data": "^2.5.0",
