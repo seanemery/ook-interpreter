@@ -83,7 +83,7 @@
     "strip-bom": "^2.0.0",
     "sprintf-js": "^1.1.2",
     "strip-indent": "^1.0.1",
-    "trim-newlines": "^1.0.0",
+    "trim-newlines": "^3.0.1",
     "underscore.string": "^3.3.5",
     "util-deprecate": "^1.0.2",
     "supports-color": "^5.5.0",
